@@ -1,0 +1,171 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: serif;
+	background-color: #bbbdf6;
+	color: white;
+}
+
+nav{
+	background-color: #9893da;
+	height: 80px;
+	width: 100;
+}
+
+label.logo{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{	
+	color: white;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+a.active,a:hover{
+	background: #797a9e;
+	transition: .5s;
+
+}
+.checkbtn{
+	font-size: 30px;
+	color: black;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+
+}
+#marquee {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/*pengenalan web*/
+.p1 {
+	color: #72727e;
+	text-align: center; 
+	font-size: 18px;
+	font-family: serif; 
+	padding: 60px 30px;
+	margin: 0 auto;
+	max-width: 800px;
+	line-height: 1.0;
+	letter-spacing: 1,6px;
+	border-style: dotted;
+}
+
+.center{
+	background-color: #797a9e; 
+  	color: #f7f9f9; 
+  	text-align: center;
+  	margin-top: 50px;
+  	font-size: 20px; 	
+}
+
+td img{
+	margin: 10px;
+}
+
+.footer{
+	background-color: #9893da;
+}
+.footerContainer{
+	width: 100%;
+	padding: 50px 30px 20px;
+	display: grid;
+    place-items: center;
+    background-color:  #9893da;
+}
+.sociallIcons{
+	display: flex;
+	justify-content: center;
+
+}
+.sociallIcons a{
+	text-decoration: none;
+	padding: 10px;
+	background-color: #9893da;
+	margin: 30px;
+	border-radius: 50%;
+	justify-content: center;
+}
+.sociallIcons a i{
+	font-size: 5em;
+	color: black;
+	opacity: 0,9;
+}
+.sociallIcons a:hover{
+	background-color: #797a9e;
+	transition: 0,5s;
+}
+.sociallIcons a:hover{
+	color: white;
+	transition: 0,5s;
+}
+.footerNav{
+	margin: 30px 5;
+	gap: 20px;
+}
+.footerNav ul{
+	display: flex;
+	justify-content: center;
+	margin: 0 10px;
+	list-style-type: none;
+}
+.footerNav ul li a{
+	color: white;
+	margin: 20opx;
+	text-decoration: none;
+	font-size: 1.3em;
+	opacity: 0.7;
+	transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+	opacity: 1;
+}
+.footerBottom{
+	padding: 20px;
+	text-align: center;
+}
+.footerBottom p{
+	color: white;
+}
+.designer{
+	opacity: 0,7;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	margin: 0px 5px;
+}
+@media (max-width: 700px){
+	.footerNav ul{
+		flex-direction: column;
+	}
+	.footnerNav ul li{
+		width: 100%;
+		text-align: center;
+		margin: 10px;
+	}
+	.sociallIcons a{
+		padding: 8px;
+		margin: 4px;
+}
